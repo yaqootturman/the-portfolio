@@ -1,0 +1,131 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.main{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    font-family: 'DynaPuff', cursive;
+    font-size: x-large;
+}
+.header a{
+    font-family: "DM Sans",sans-serif;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: grey;
+}
+.intro{
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'DynaPuff', cursive;
+    width:auto;
+    margin: 6rem 12rem 0rem;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+.greeting{
+    box-shadow: 0 4px 8px 0 rgba(201, 225, 225);
+    border-radius: 5px;
+    margin:6rem 12rem 4rem;
+    padding: 3rem;
+    text-align: center;
+}
+.greeting:hover {
+    box-shadow: 0 8px 16px 0 rgba(201, 225, 225);
+}
+.major{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 0rem 10rem;
+    padding: 1rem;
+    text-align: center;
+  }
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    padding:1rem;
+    font-size: large;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100vw}
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.skills{
+    height: 100vh;
+    background-color:#f2f7fb ;
+}
+.skills h4{
+    font-family: 'DynaPuff', cursive;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2rem;
+}
+.skills div{
+    background-color: white;
+    padding:2rem 5rem;
+    margin:4rem 0rem;
+}
+.item{
+    display: inline-block;
+    text-align: center;
+}
+.item span{
+    display: block;
+    font-size: large;
+}
+.contact{
+    height: 100vh;
+    background-color:#f2f7fb ;
+}
+.contact h4{
+    font-family: 'DynaPuff', cursive;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2rem;
+}
+.contact div{
+    background-color:rgb(201, 225, 225);
+    margin: 4rem 20rem 5rem;
+    padding:3rem;
+    align-items:center;
+}
+.contact div img {
+    display: inline-block;
+    padding:0rem 1rem;
+    vertical-align: -moz-middle-with-baseline;
+}
+.work{
+    height: 100vh;
+    background-color:#f2f7fb ;
+}
+.work h4{
+    font-family: 'DynaPuff', cursive;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2rem;
+}
+.work p{
+    font-size: x-large;
+    text-align: center;
+    padding:3rem;
+}
